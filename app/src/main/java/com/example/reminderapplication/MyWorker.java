@@ -23,8 +23,6 @@ import  java.util.concurrent.TimeUnit ;
 
 public class MyWorker extends Worker {
 
-   // private static final int NOTIFICATION_ID = 100 ;
-
     public MyWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {
         super(context, workerParams);
     }
